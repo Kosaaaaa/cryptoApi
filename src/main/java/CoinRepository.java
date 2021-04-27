@@ -28,6 +28,10 @@ public class CoinRepository {
         return String.format("%s: %s", coin.getName(), coin.getChangePercent24Hr());
     }
 
+    public List<Coin> getCoinList() {
+        return coinList;
+    }
+
     @Override
     public String toString() {
         return "CoinRepository{" +
