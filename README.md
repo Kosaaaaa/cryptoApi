@@ -5,5 +5,5 @@
 ## Usage
 
 ```
-run Main.main() and selct option from menu
+run Main.main() and select option from menu
 ```
